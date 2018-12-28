@@ -46,7 +46,7 @@ MAC Add: 00:08:2F:32:F3:D7, SSID: UniversityGuest, RSSI: -51
 
 ## Ensuring the Active scan with Kali Linux 
 
-* Active Scan captures Using the [cc3100Boost+cc31XXEMUBoost - 11](ActiveScan/cc3100-active-monitoring-channel-1.pcapng)
+* Active scan captures Using the [cc3100Boost+cc31XXEMUBoost - 11](ActiveScan/cc3100-active-monitoring-channel-1.pcapng)
  
 ![](ActiveScan/kali-captures.PNG)
   

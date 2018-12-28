@@ -376,7 +376,7 @@ int main(int argc, char** argv)
     retVal = sl_WlanGetNetworkList(runningIdx, numOfEntries,
                                    &netEntries[runningIdx]);
 
-    for(int i=0; i< numOfEntries; i++)
+    for(int i=0; i< retVal; i++)
     {
           printf("MAC Add: %02X:%02X:%02X:%02X:%02X:%02X, SSID: %s, RSSI: %d\n",
         		  netEntries[i].bssid[0],netEntries[i].bssid[1],netEntries[i].bssid[2],
