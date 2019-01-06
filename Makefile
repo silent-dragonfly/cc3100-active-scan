@@ -2,9 +2,9 @@
 
 LIB_PATH := simple-link
 
-APP_NAME := main.exe
+APP_NAME := cc3100-active-scan.exe
 VPATH = src:$(LIB_PATH)/simple_link/source
-SRCS := $(wildcard src/main.c) $(wildcard $(LIB_PATH)/simple_link/source/*.c)
+SRCS := $(wildcard src/*.c) $(wildcard $(LIB_PATH)/simple_link/source/*.c)
 
 CC := gcc
 
